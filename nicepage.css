@@ -39815,6 +39815,8 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
@@ -39847,11 +39849,13 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h1:not(.u-title)
         {
-        font-weight: 400;
-        font-size: 3rem;
+        font-size: 2.25rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-weight: 700;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
         }
         h2:not(.u-subtitle)
         {
@@ -39913,7 +39917,7 @@ a.u-link.u-text-hover-grey-90:hover {
         line-height: 1.6;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
-        font-family: Lobster,display;
+        font-family: Arial,sans-serif;
         }
         .u-btn
         {
@@ -40109,6 +40113,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {
   background-image: none;
+  box-shadow: -2px 2px 8px 0px rgba(128,128,128,1);
 }
 
 .u-header .u-sheet-1 {
@@ -40121,12 +40126,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -12px 169px 0 auto;
+  margin: -11px 180px 0 auto;
 }
 
 .u-header .u-nav-1 {
+  font-weight: 400;
   font-size: 1.5rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -40136,7 +40141,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-2 {
   font-weight: 700;
   font-size: 3rem;
-  margin: -127px 898px 0 0;
+  margin: -128px 898px 0 0;
 }
 
 .u-header .u-text-3 {
@@ -40151,8 +40156,12 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -12px;
-    margin-right: 169px;
+    margin-top: -11px;
+    margin-right: 180px;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 
   .u-header .u-text-2 {
@@ -40184,7 +40193,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-right: 106px;
+    margin-right: 113px;
   }
 
   .u-header .u-text-2 {
@@ -40201,11 +40210,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-sheet-1 {
   min-height: 120px;
-}
-
-.u-footer .u-text-1 {
-  width: 417px;
-  margin: 49px auto;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -40225,10 +40229,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
     min-height: 36px;
-  }
-
-  .u-footer .u-text-1 {
-    width: 340px;
   }
 }
 
