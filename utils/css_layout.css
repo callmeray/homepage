@@ -36,10 +36,11 @@
         height: 100%;
     }
     #sidebar > img.me{
-        max-height:180px;
-        max-width:180px;
-        margin:20px 55px;
-        /*border-radius: 50%;*/
+    /* max-height:350px; */
+    max-width:180px;
+    display: block; /* 将图片转换为块级元素 */
+    margin: 20px auto; /* 上下边距 20px，左右边距自动，实现水平居中 */
+    /*border-radius: 50%;*/
     }
   #sidebar div.info{
     color: white;
