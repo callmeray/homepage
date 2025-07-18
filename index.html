@@ -13,7 +13,7 @@
   <!-- 搜索引擎优化stuff -->
 	<meta name="description"
     content="Academic website for Rui Chen. Dr. Rui Chen is a Research Assistant Professor at Dept. of Mechanical Engineering, Tsinghua University.">
-	<meta name="keywords" content="Rui Chen, THU, Tsinghua University, Tactile Sensing, Robotics">
+	<meta name="keywords" content="Rui Chen, THU, Tsinghua University, Tactile Sensing, Robotics, Embodied AI">
 
 
 </head>
@@ -96,7 +96,7 @@
     I am a Research Assistant Professor at Dept. of Mechanical Engineering, Tsinghua University. My goal is to empower robots to better perceive,&nbsp;understand and interact with the world.&nbsp; My current research includes robot learning, tactile sensing, and 3D computer vision.
 
     <div class="linebreak"></div>
-    I am actively looking for motivated visiting students, interns, and postdocs. Please feel free to email me if you are interested.
+    I am actively looking for motivated visiting students, interns, and postdocs. Please feel free to email me with your CV and transcript if you are interested.
 
     <div class="linebreak"></div>
   </div>
@@ -107,6 +107,12 @@
 
   <div class="content">
     <ul>
+      <li><span class="label label-info">06/2025</span>
+        <a href="https://ieeexplore.ieee.org/abstract/document/11059840">DexSim2Real2</a>  is accepted to TRO.
+        </li>
+      <li><span class="label label-info">06/2025</span>
+        One paper is accepted to TCSVT, one paper is accepted to TIM.
+        </li>
       <li><span class="label label-info">01/2025</span>
         <a href="https://ieeexplore.ieee.org/document/10842357">ThinTact</a>  is accepted to TRO.
         </li>
@@ -134,6 +140,7 @@
 
   <div class="content">
     <ul>
+      <li><a href="https://sites.google.com/view/iros-2025-workshop-tactile" target="_blank">IROS 2025 Workshop on ''Tactile Sensing Toward Robot Dexterity and Intelligence''</a> </li>
       <li><a href="https://shanluo.github.io/ViTacWorkshops/" target="_blank">ICRA ViTac 2025 Workshop on ''Towards Human Level Intelligence Vision and Tactile Sensing''</a> </li>
       <li><a href="https://ai-workshops.github.io/maniskill-vitac-challenge-2025/" target="_blank">ManiSkill-ViTac: Tactile-Vision Manipulation Skill Learning Challenge 2025</a> </li>
       <li><a href="https://ai-workshops.github.io/maniskill-vitac-challenge-2024/" target="_blank">ManiSkill-ViTac: Vision-based-Tactile Manipulation Skill Learning Challenge 2024</a> </li>
@@ -157,18 +164,20 @@
       <div class="text-error" >Please refer to&nbsp;<a href="https://scholar.google.com/citations?user=azTXasgAAAAJ" target="_blank">Google Scholar</a>&nbsp;for the full publication list.</div>
       <li>
         <div class="imgblock"><img src="publications/dexsim2real2.gif"></img></div>
-        <span class="title" id="robotlearning" href="#robotlearning">DexSim2Real<sup>2</sup>:Building Explicit World Model for Precise Articulated Object Manipulations
+        <span class="title" id="robotlearning" href="#robotlearning">DexSim2Real<sup>2</sup>:Building Explicit World Model for Precise Articulated Object Dexterous Manipulation
         </span>
-        <div class="info text-success italic" style="color: grey"> Taoran Jiang*, Liqian Ma*, Yixuan Guan, Jiaojiao Meng, Weihang Chen, Zecui Zeng, Lusong Li, Dan Wu, Jing Xu, <span style="font-weight:bold">Rui Chen†</span></div>
-        <div class="info"><span class="label label-info">arXiv</span> <span class="label label-info">robot learning</span>
+        <div class="info text-success italic" style="color: grey"> Taoran Jiang*, Yixuan Guan*, Liqian Ma*, Jing Xu*, Jiaojiao Meng, Weihang Chen, Zecui Zeng, Lusong Li, Dan Wu, <span style="font-weight:bold">Rui Chen†</span></div>
+        <div class="info"><span class="label label-info">TRO 2025</span> <span class="label label-info">robot learning</span>
         </div>
         <div class="stuff">
           <a class="" href="https://arxiv.org/abs/2409.08750" target="_blank">[Paper]</a>
-          <a class="" href="https://jiangtaoran.github.io/dexsim2real2_website/" target="_blank">[Project]</a>
+          <a class="" href="https://jiangtaoran.github.io/dexsim2real2web/" target="_blank">[Project]</a>
+          <a class="" href="https://youtu.be/GmN8hW0uMYE?si=qALNbKzZ3GVJr3um" target="_blank">[Video]</a>
+          <a class="" href="https://github.com/jiangtaoran/DexSim2Real2" target="_blank">[Code]</a>
           <a href="bibs/dexsim2real2.bib">[BibTex]</a>
         </div>
         <div class="info">We present DexSim2Real<sup>2</sup>, a novel robot learning framework for goal-conditioned articulated object manipulation using both two-finger grippers and multi-finger dexterous hands.
-          The key of our framework is constructing an explicit world model of unseen articulated objects through active one-step interactions. This explicit world model enables sampling-based model predictive control to plan trajectories achieving different manipulation goals without needing human demonstrations or reinforcement learning. For dexterous multi-finger manipulation, we propose to utilize eigengrasp to reduce the high-dimensional action space, enabling more efficient trajectory searching. The robust generalizability of the explicit world model also enables advanced manipulation strategies, such as manipulating with different tools.
+          The key of our framework is constructing an explicit world model of unseen articulated objects through active one-step interactions using 3D AIGC. This explicit world model enables sampling-based model predictive control to plan trajectories achieving different manipulation goals without needing human demonstrations or reinforcement learning. For dexterous multi-finger manipulation, we propose to utilize eigengrasp to reduce the high-dimensional action space, enabling more efficient trajectory searching. The robust generalizability of the explicit world model also enables advanced manipulation strategies, such as manipulating with different tools.
         </div>
         <div style="clear:both"></div>
       </li>
@@ -177,7 +186,7 @@
         <span class="title"> ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI
         </span>
         <div class="info text-success italic" style="color: grey"> Stone Tao, Fanbo Xiang, Arth Shukla, Yuzhe Qin, Xander Hinrichsen, Xiaodi Yuan, Chen Bao, Xinsong Lin, Yulin Liu, Tse-kai Chan, Yuan Gao, Xuanlin Li, Tongzhou Mu, Nan Xiao, Arnav Gurha, Zhiao Huang, Roberto Calandra, <span style="font-weight:bold">Rui Chen</span>, Shan Luo, Hao Su</div>
-        <div class="info"><span class="label label-info">arXiv</span> <span class="label label-info">robot learning</span></div>
+        <div class="info"><span class="label label-info">RSS 2025</span> <span class="label label-info">robot learning</span></div>
         <div class="stuff">
           <a class="" href="https://arxiv.org/abs/2410.00425" target="_blank">[Paper]</a>
           <a class="" href="https://maniskill.ai/" target="_blank">[Project]</a>
@@ -324,8 +333,24 @@
         <div style="clear:both"></div>
       </li>
       <li>
+        <div class="imgblock"><img src="publications/glassmolder.gif"></img></div>
+        <span class="title" id="3dcv" href="#3dcv"> GlassMolder: Transparent Object Reconstruction with Silhouette-Guided Object-Centric Diffusion
+        </span>
+        <div class="info text-success italic" style="color: grey">Changping Hu*, Jing Xu*, Chifai Pun, Fei Chen, <span style="font-weight:bold">Rui Chen†</span>
+        </div>
+        <div class="info"><span class="label label-info">TCSVT 2025</span> <span class="label label-info">3d vision</span></div>
+        <div class="stuff">
+          <a class="" href="https://ieeexplore.ieee.org/document/11015774" target="_blank">[IEEE Xplore]</a>
+          <a class="" href="" target="_blank">[Code](Coming soon)</a>
+          <a href="bibs/glassmolder.bib">[BibTex]</a>
+        </div>
+        <div class="info">We propose a novel transparent object reconstruction pipeline with a guided object-centric 3D diffusion model. Specifically, we train an unconditional 3D diffusion model with only 3D point cloud data. To control the output of the diffusion model, we design a silhouette-based guidance function and a completion framework with outline points for each step of diffusion process. Specifically, for each step, we design a re-projection pipeline to estimate a silhouette with uncertainty and constrain the partially-noised point cloud to align with it. We further apply stereo matching to compute the outline points in the stereo silhouettes and use a completion framework to fuse them with the partially-denoised point cloud
+        </div>
+        <div style="clear:both"></div>
+      </li>
+      <li>
         <div class="imgblock"><img src="publications/activezero++.jpg"></img></div>
-        <span class="title" id="3dcv" href="#3dcv"> ActiveZero++: Mixed Domain Learning Stereo and Confidence-based Depth Completion with Zero Annotation
+        <span class="title"> ActiveZero++: Mixed Domain Learning Stereo and Confidence-based Depth Completion with Zero Annotation
         </span>
         <div class="info text-success italic" style="color: grey"><span style="font-weight:bold">Rui Chen</span>, Isabella Liu, Edward Yang, Jianyu Tao, Xiaoshuai Zhang, Qing Ran, Zhu Liu, Jing Xu†, Hao Su
         </div>
